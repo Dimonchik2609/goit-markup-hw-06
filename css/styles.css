@@ -1015,19 +1015,19 @@ display: flex;
     }
     .modal-text{
       font-weight: 500;
-          text-align: center;
-          color: #2e2f42;
-          margin-bottom: 16px;
-          line-height: 1.5;
-          letter-spacing: 0.02em;
+      text-align: center;
+      color: #2e2f42;
+      margin-bottom: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
     }
     .label-input{
       margin-bottom: 4px;
-          font-size: 12px;
-          line-height: 1.17;
-          letter-spacing: 0.04em;
-          color: #8e8f99;
-          display: block;
+      font-size: 12px;
+      line-height: 1.17;
+      letter-spacing: 0.04em;
+      color: #8e8f99;
+      display: block;
     
     }
     /* icon-name */
@@ -1039,12 +1039,12 @@ display: flex;
     .icon-modalemail,
     .icon-modalphone{
       width: 18px;
-          height: 24px;
-          position: absolute;
-          left: 16px;
-          top: 50%;
-          transform: translateY(-50%);
-          transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+      height: 24px;
+      position: absolute;
+      left: 16px;
+      top: 50%;
+      transform: translateY(-50%);
+      transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     .class-for-input {
       position: relative;
@@ -1123,13 +1123,14 @@ display: flex;
       letter-spacing: 0.04em;
       color: #8e8f99;
     }
+    
+   
     .link-policy{
-          line-height: 1.33333;
-          text-decoration: underline;
-          text-decoration-skip-ink: none;
-          color: #4d5ae5;
-          padding-left: 4px;
-    } 
+      line-height: 1.33;
+      text-decoration:underline;
+      color: #4d5ae5;
+      
+      } 
     .btn-undermodal{
       display: block;
       margin-left: auto;
@@ -1154,7 +1155,7 @@ display: flex;
     border-radius: 2px;
       border: 1px solid rgba(46, 47, 66, 0.4);
       display: flex;
-      margin-right: 12px;
+      margin-right: 8px;
       align-items: center;
       justify-content: center;
       fill: transparent;
@@ -1177,15 +1178,17 @@ display: flex;
     
     }
     .modal-policy{
-      margin-bottom: 24px;    
+      margin-bottom: 24px;
+       
+         
     
     }
-    .modal-policylabel{
-      font-size: 12px;
-          letter-spacing: 0.04em;
-          color: #8e8f99;
-          line-height: 1.17;
-    }
+    .modal-policylabel {
+     font-size: 12px;
+     line-height: 1.17;
+     letter-spacing: 0.04em;
+     color: #8e8f99;
+     }
     
     /*button-send*/
     
@@ -1215,12 +1218,12 @@ display: flex;
       transform: translate(0, -3px);
       box-shadow: 0 20px 40px 0 rgba(64, 75, 191, 0.668);
     }
-
+    
     @media screen and (min-width: 768px) {
       .modal {
         width: 408px;
         min-height: 584px;
         padding: 72px 24px 24px 24px;
       }
-      }
+    }
       
